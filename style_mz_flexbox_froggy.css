@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0 ;
+  border-radius: 50px;
+}
+
+.container{
+  width:940px;
+  padding:20px;
+}
+
+body {
+  width:940px;
+  padding: 20px;
+}
+
+header {
+  text-align:center;
+  background-color:lightblue;
+  padding:20px;
+  border-radius:50px;
+}
+
+
+
+footer {
+  text-align:center;
+  background-color:lightblue;
+  padding:20px;
+  border-radius:50px;
+  margin-top:20px;
+}
+
+img {
+  width:95%;
+  height:300px;
+  display:inline;
+  border-radius:50px;
+  margin:20px;
+}
+
+.img_lugares {
+  width:70%;
+  height:300px;
+  display:inline;
+  border-radius:10px;
+}
+
+nav a{
+  padding:0 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+section div {
+  background-image: linear-gradient(lightblue 10%, yellow 30%, lightblue);
+  padding:20px;
+  text-align:center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 10px;
+  width:92%;
+  
+}
+
+.marco-zero {
+  background-image: linear-gradient(lightblue 10%, yellow 30%, lightblue);
+  padding:20px;
+  text-align:center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 10px;
+  width:97%;
+  
+}
+
+a img {
+  text-align:center;
+  width:5%;
+  height:5%;
+  border-radius:10px;
+}
+
+.main_pt_tur{
+  text-align:center;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+  .img_lugares {
+  width:70%;
+  height:300px;
+  display:inline;
+  border-radius:10px;
+}
+  section div {
+    width:60%;
+    margin:10px;
+  }
+  .div-align-self{
+    align-self: flex-end;
+    width:60%;
+    margin:10px;
+  }
+}
